@@ -4,7 +4,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/naomiyocum/meme-generator?color=yellow)
 
 <div align="center">
-  <img width="390" alt="Screen Shot 2023-05-03 at 3 07 20 PM" src="https://user-images.githubusercontent.com/102825498/236050148-90e724c2-cb22-4927-b965-bb008281199e.png">
+
 </div>
 
 ## Table of contents
