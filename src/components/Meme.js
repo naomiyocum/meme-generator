@@ -7,7 +7,7 @@ export default function Meme() {
     bottomText: '',
     randomImage: 'http://i.imgflip.com/1bij.jpg'
   })
-
+// eslint-disable-next-line
   const [allMemeImages, setAllMemeImages] = useState(memesData)
 
   function getMemeImage() {
@@ -36,7 +36,11 @@ export default function Meme() {
           Get a new meme image 🖼
         </button>
       </div>
-      <img src={meme.randomImage} className="meme--image" alt="Random Meme"/>
+      <div className="meme">
+        <img src={meme.randomImage} className="meme--image" alt="Random Meme" />
+        <h2 className="meme--text top">Hello</h2>
+        <h2 className="meme--text bottom">World</h2>
+      </div>
     </main>
   )
 }

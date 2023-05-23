@@ -62,10 +62,42 @@ header {
   cursor: pointer;
 }
 
+.meme {
+  position: relative;
+}
+
 .meme--image{
-  display: flex;
-  margin: auto;
-  padding-top: 20px;
+  border-radius: 3px;
   max-width: 100%;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow:
+  2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
 
