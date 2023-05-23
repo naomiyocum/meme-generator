@@ -76,8 +76,6 @@ header {
 
 .meme--text {
   position: absolute;
-  width: 80%;
-  text-align: center;
   left: 50%;
   transform: translateX(-50%);
   margin: 15px 0;
@@ -94,10 +92,10 @@ header {
 }
 
 .top {
-  top: 0;
+  top: 5;
 }
 
 .bottom {
-  bottom: 0;
+  bottom: 5;
 }
 
