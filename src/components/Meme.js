@@ -1,4 +1,4 @@
-import memesData from '../memesData.js'
+// import memesData from '../memesData.js'
 import {useState} from 'react'
 
 export default function Meme() {
@@ -7,8 +7,12 @@ export default function Meme() {
     bottomText: '',
     randomImage: 'http://i.imgflip.com/1bij.jpg'
   })
-// eslint-disable-next-line
-  const [allMemeImages, setAllMemeImages] = useState(memesData)
+
+  const [allMemeImages, setAllMemeImages] = useState("")
+
+  fetch("https://api.imgflip.com/get_memes")
+    .then(res => res.json())
+    .then(data => setAllMemeImages(data))
 
   function getMemeImage() {
     const memesArr = allMemeImages.data.memes
