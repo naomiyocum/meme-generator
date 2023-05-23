@@ -4,7 +4,9 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/naomiyocum/meme-generator?color=yellow)
 
 <div align="center">
-
+  
+  ![Screen Shot 2023-05-23 at 4 52 43 PM](https://github.com/naomiyocum/meme-generator/assets/102825498/f20e8a92-ff52-4b2d-a7e0-977950b5ec3f)
+  
 </div>
 
 ## Table of contents
@@ -14,7 +16,7 @@
 * [Usage](#usage)
 
 ## General Info
-This is my first dynamic site using React - view the deployed version [here]()! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and survives from the [Meme Generator API](https://imgflip.com/api).
+This is my first dynamic site using React - view the deployed version [here](https://naomis-memes.netlify.app/)! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and survives from the [Meme Generator API](https://imgflip.com/api).
 
 ## Learning Goals
 * Understand state and implement useState()
